@@ -1,0 +1,265 @@
+@import url("reset.css");
+@import url("fuentes.css");
+
+
+body{
+    background: #fff;
+    font-family: Kin668;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Kin668;
+    padding: 0px 5px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#subheader{
+    width: 850px;
+    height: 70px;
+}
+#wrep{
+    width: 1288;
+    margin: auto;
+    clear: both;
+}
+
+
+/*Main*/
+main{
+    width: 100%;
+    margin: 1288px 0px 0px 0px;
+    float: left;
+
+}
+
+/*--Style to header--*/
+
+header{
+    width: 100%;
+    float: left;
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5cfd6+0,6e7774+50,0a0e0a+51,84a59f+100 */
+      background: #ffffff; /* Old browsers */
+      background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 50%, #ffffff 51%, #ffffff 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  rgb(255, 255, 255) 0%,#ffffff 50%,#ffffff 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 50%,#ffffff 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5cfd6', endColorstr='#84a59f',GradientType=0 ); /* IE6-9 */
+      
+      box-shadow: 0px 3px 5px #ffffff;
+      -moz-box-shadow: 0px 3px 5px #ffffff;
+      -webkit-box-shadow: 0px 3px 5px #ffffff;
+}
+
+/*Style al subheader*/
+#subheader{
+    width: 1288px;
+    margin: auto;
+}
+
+/*Style al logotipo*/
+#logotipo{
+    padding: 0px 2px;
+    width: 30px;
+    height: 20px;
+}
+
+/*Style a la etiqueta p del identificador logotipo*/
+#logotipo p{
+    font-family: GryphonRock;
+    color: black;
+    padding: 25px 70px;  
+}
+
+#logotipo p:hover{
+    text-decoration: none;
+}
+
+header #subheader nav{
+    float: left;
+    width: 1102px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+header #subheader nav ul li{
+    display: inline-block;
+    font-family: GryphonRock;
+}
+
+header #subheader nav ul li a{
+    width: 1288px;
+    color: #080808;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+     -moz-border-radius: 2px;
+     -webkit-border-radius:2px;
+}
+
+
+header #subheader nav ul li a:hover{
+    color: #fff;
+    background: #089B46;
+    text-decoration: none;
+}
+
+#registrate{
+    color: #fff;
+    background:#089B46;
+    text-decoration: none;
+    border: solid #089B46;
+}
+
+#img img{
+    width: 378px;
+    height: 351px;
+    top: -10px;
+}
+
+#pagprincipal {
+    position: relative;
+    text-align: left;
+}
+
+#wer{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(107px 301px);
+}
+
+#pagprincipal .subtitulo{
+    font-family: TheStudentsTeacher;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+
+#wer #titulosubh{
+    font-family: GryphonRock;
+    font-size: 50px;
+}
+
+#inferior{
+    position: absolute;
+    text-align: left;
+}
+#ladoz{
+    position:absolute;
+    color: #fff;
+    top: 130%;
+    left: 0%;
+    border: 10px solid #089B46;
+    background:#089B46;
+    text-decoration: none;
+}
+
+ #lado{
+    position:relative;
+    top: 70px;
+    left: 39%;
+    text-decoration: none;
+}
+
+#imag{
+    top: -20px;
+    right: -300px;
+    padding: 1px;
+    position: relative;
+    text-align: right;
+}
+
+#pagprincipal #imag{
+    width: 500px;
+    height: 451px;
+}
+
+#sub{
+    position: relative;
+    top: 40px;
+    right: -2px;
+}
+
+
+
+/*Estilos a "listo para los negocio"(Styles to Ready For Business)*/
+
+#parttwo{
+    font-family: GryphonRock;
+    font-size: 80px;
+    text-align: center;
+}
+
+#parttwo article{
+    width: 1288px;
+    height: 700px;
+}
+
+#imag2{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 80px ;
+    right: -95px;
+    width: 539px; 
+    height: 464px;
+}
+
+
+
+#menusecond{
+    width: 615px;
+    position: relative;
+    top: -290px;
+    right: -700px;
+}
+
+.nick{
+    font-family: GryphonRock;
+    font-size: 40px;
+}
+
+.gom{
+    font-family: TheStudentsTeacher;
+    font-size: 20px;
+}
+
+
+
+/*Style to footer*/
+
+footer{
+    width: 100%;
+    float: left;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5cfd6+0,6e7774+50,0a0e0a+51,84a59f+100 */
+     background: #202020; /* Old browsers */
+     background: -moz-linear-gradient(top,  #707070 0%, #707070 50%, #707070 51%, #707070 100%); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top,  #707070(255, 255, 255) 0%,#707070 50%,#707070 51%, #707070 100%); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom,  #707070 0%,#707070 50%,#707070 51%,#707070 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5cfd6', endColorstr='#84a59f',GradientType=0 ); /* IE6-9 */
+     
+     box-shadow: 0px 3px 5px #ffffff;
+     -moz-box-shadow: 0px 3px 5px #ffffff;
+     -webkit-box-shadow: 0px 3px 5px #ffffff;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -46px;
+    right: 50px;
+}
+
+
+
+
+
+
+
+
+
